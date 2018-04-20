@@ -8,6 +8,6 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_min(groceries)
+def get_the_min
   groceries.values.flatten.min
 end
